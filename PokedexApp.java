@@ -9,7 +9,7 @@ public class PokedexApp {
         pokemon1.setAge(2);
         pokemon1.setName("Yumi");
         System.out.println(pokemon1);
-        // Ik heb hier niet gespecifieerd of ze kan evolueren, haar kleur of gender dus de standaard waarde voor Boolean is false en null.
+        // Ik heb hier niet gespecifieerd of ze kan evolueren, haar kleur of gender dus de standaard waarde voor Boolean is false
 
 
 
@@ -20,7 +20,7 @@ public class PokedexApp {
         Electric pokemon2 = new Electric("Storm",10,true,PokemonColor.YELLOW,PokemonGender.FEMALE,true);
         System.out.println(pokemon2);
         pokemon2.talk();
-        pokemon2.talk("Piiiiiiiiiiiikaaaaaaaaaaaachuuuuuuuuuu!!!!!!!");
+        pokemon2.talk("Piiiiiiiiiiiikaaaaaaaaaaaachuuuuuuuuuu!!!!!!!"); // Hier heb ik de anger methode gekozen van mijn subklasse Electric en heb hier de custom String msg getypt
 
 
 
